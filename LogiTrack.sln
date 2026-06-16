@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogiTrack.Api", "src\LogiTrack.Api\LogiTrack.Api.csproj", "{B64383AE-3BD9-43D6-B5D0-54EF01D5DA81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogiTrack.Infrastructure", "src\LogiTrack.Infrastructure\LogiTrack.Infrastructure.csproj", "{36158913-1B8D-4735-928C-C6808A72B5E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogiTrack.Domain", "src\LogiTrack.Domain\LogiTrack.Domain.csproj", "{E0A3AFA8-3BB9-458C-9129-37AA5F8554F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogiTrack.Application", "src\LogiTrack.Application\LogiTrack.Application.csproj", "{F58155FC-04E6-46CD-8654-AD08BB90089F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B64383AE-3BD9-43D6-B5D0-54EF01D5DA81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B64383AE-3BD9-43D6-B5D0-54EF01D5DA81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B64383AE-3BD9-43D6-B5D0-54EF01D5DA81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B64383AE-3BD9-43D6-B5D0-54EF01D5DA81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36158913-1B8D-4735-928C-C6808A72B5E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36158913-1B8D-4735-928C-C6808A72B5E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36158913-1B8D-4735-928C-C6808A72B5E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36158913-1B8D-4735-928C-C6808A72B5E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0A3AFA8-3BB9-458C-9129-37AA5F8554F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0A3AFA8-3BB9-458C-9129-37AA5F8554F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0A3AFA8-3BB9-458C-9129-37AA5F8554F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0A3AFA8-3BB9-458C-9129-37AA5F8554F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F58155FC-04E6-46CD-8654-AD08BB90089F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F58155FC-04E6-46CD-8654-AD08BB90089F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F58155FC-04E6-46CD-8654-AD08BB90089F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F58155FC-04E6-46CD-8654-AD08BB90089F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
