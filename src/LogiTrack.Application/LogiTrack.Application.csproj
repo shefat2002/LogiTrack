@@ -6,4 +6,8 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\LogiTrack.Domain\LogiTrack.Domain.csproj" />
+    </ItemGroup>
+
 </Project>

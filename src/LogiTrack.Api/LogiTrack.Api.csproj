@@ -10,4 +10,9 @@
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.2"/>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\LogiTrack.Application\LogiTrack.Application.csproj" />
+      <ProjectReference Include="..\LogiTrack.Infrastructure\LogiTrack.Infrastructure.csproj" />
+    </ItemGroup>
+
 </Project>
