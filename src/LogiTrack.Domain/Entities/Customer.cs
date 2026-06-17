@@ -18,8 +18,6 @@ public class Customer
             throw new ArgumentException("Full name cannot be empty", nameof(fullName));
         if(string.IsNullOrWhiteSpace(email))
             throw new ArgumentException("Email cannot be empty", nameof(email));
-        if(string.IsNullOrWhiteSpace(phoneNumber))
-            throw new ArgumentException("PhoneNumber cannot be empty", nameof(phoneNumber));
         Id = Guid.NewGuid();
         FullName = fullName;
         Email = email;
@@ -30,8 +28,6 @@ public class Customer
     {
         if(string.IsNullOrWhiteSpace(email))
             throw new ArgumentException("Email cannot be empty", nameof(email));
-        if(string.IsNullOrWhiteSpace(phoneNumber))
-            throw new ArgumentException("PhoneNumber cannot be empty", nameof(phoneNumber));
         Email = email;
         PhoneNumber = phoneNumber;
     }
