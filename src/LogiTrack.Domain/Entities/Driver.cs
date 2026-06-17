@@ -11,7 +11,7 @@ public class Driver
     public string PhoneNumber { get; private set; } = string.Empty;
     public string? Email { get; private set; }
     public DriverStatus  CurrentStatus { get; private set; }
-    public DateTime CreatedAt { get; private set; }
+    public DateTime CreatedAt { get; init; }
 
     private Driver() { }
 
