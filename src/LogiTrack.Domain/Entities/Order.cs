@@ -34,6 +34,9 @@ public class Order
     {
         if(Status != OrderStatus.Pending)
             throw new InvalidOperationException("Cannot assign driver to an order that is already assigned");
+        AssignedDriverId = driverId;
+        Status = OrderStatus.Assigned;
+        UpdatedAt = DateTime.UtcNow;
     }
 
     public void UpdateStatus(OrderStatus status)
