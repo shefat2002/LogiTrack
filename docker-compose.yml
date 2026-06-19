@@ -4,9 +4,9 @@ services:
     environment:
       POSTGRES_USER: admin
       POSTGRES_PASSWORD: admin
-      POSTGRES_DB: logitrack-db
+      POSTGRES_DB: LogiTrackDb
     ports:
-      - "5432:5432"
+      - "5433:5432"
     volumes:
         - pgdata:/var/lib/postgresql
 volumes:
